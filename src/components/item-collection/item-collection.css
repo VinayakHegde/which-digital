@@ -1,0 +1,20 @@
+
+.item__collection {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1024px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* 
+  Device = Mobiles (Landscape), Tablets, Ipads, Laptops, Desktops
+  Screen = from 481px and above
+*/
+@media (min-width: 481px) {
+  .item__collection{
+    flex-flow: row wrap;
+  }
+}

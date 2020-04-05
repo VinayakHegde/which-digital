@@ -1,0 +1,47 @@
+.item__button {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  border: 1px dotted gainsboro;
+  cursor: pointer;
+  background: transparent;
+  border-radius: 3px;
+}
+.item__button:focus {
+  border: none;
+  outline: none;
+}
+
+.item__button:not(.highlight):hover {
+  border: none;
+  background: gainsboro;
+}
+
+.item__button.highlight {
+  background: red;
+  color: white;
+}
+
+/*
+  Device = Laptops, Desktops
+  Screen = from 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+  .item__button {  
+    flex: 1 1 33%;   
+    height: 150px;
+  }
+}
+
+/* 
+  Device = Mobiles (Landscape), Tablets, Ipads 
+  Screen = from 481px to 1024px
+*/
+@media (min-width: 481px) and (max-width: 1024px) {
+  .item__button {
+    flex: 1 1 50%;   
+    height: 200px;
+  }
+}
