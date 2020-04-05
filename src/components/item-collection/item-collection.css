@@ -11,9 +11,9 @@
 
 /* 
   Device = Mobiles (Landscape), Tablets, Ipads, Laptops, Desktops
-  Screen = from 481px and above
+  Screen = from 569px and above
 */
-@media (min-width: 481px) {
+@media (min-width: 569px) {
   .item__collection{
     flex-flow: row wrap;
   }

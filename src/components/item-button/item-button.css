@@ -39,9 +39,9 @@
 
 /* 
   Device = Mobiles (Landscape), Tablets, Ipads 
-  Screen = from 481px to 1024px
+  Screen = from 569px to 1024px
 */
-@media (min-width: 481px) and (max-width: 1024px) {
+@media (min-width: 569px) and (max-width: 1024px) {
   .item__button {
     flex: 49%;   
   }
